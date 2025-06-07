@@ -28,6 +28,6 @@ public class Task {
     private String taskName;
     
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "userId")
     private User users;
 } 
